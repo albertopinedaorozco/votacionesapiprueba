@@ -11,17 +11,7 @@
 
 | Entity  |Endpoint  | GET  | POST  | PUT | DELETE  |
 | :------------ | :------------ | :------------ | :------------ | :------------ | :------------ |
-|  Users | /api/v1/users/signup/  |  Registra usuarios |  Nuevo usuario <br>{
-    "username": "",
-    "first_name": "",
-    "last_name": "",
-    "email": "",
-    "numero_celular": "",
-    "direccion": "",
-    "municipio": "",
-    "foto": ""
-    
-} | * Update user |  - |
+|  Users | /api/v1/users/signup/  | - | Registra usuarios |  Nuevo usuario <br>{"username": "","first_name": "","last_name": "","email": "",  "numero_celular": "","direccion": "","municipio": "","foto": ""} | * Update user |  - |
 |   | /users/:id  |  * Get user |  - | -  |  * Delete user |
 |   |  /login |  - |  Login user <br>{'username':'', password:''}  | -  |  - |
 
